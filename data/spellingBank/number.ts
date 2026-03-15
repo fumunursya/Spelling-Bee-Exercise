@@ -1,0 +1,192 @@
+import type { SpellingItem } from './types';
+
+const items: SpellingItem[] = [
+  {
+    id: 'number-w01',
+    word: 'one',
+    meaning: 'satu',
+    topicId: 'number',
+  },
+  {
+    id: 'number-w02',
+    word: 'two',
+    meaning: 'dua',
+    topicId: 'number',
+  },
+  {
+    id: 'number-w03',
+    word: 'three',
+    meaning: 'tiga',
+    topicId: 'number',
+  },
+  {
+    id: 'number-w04',
+    word: 'four',
+    meaning: 'empat',
+    topicId: 'number',
+  },
+  {
+    id: 'number-w05',
+    word: 'five',
+    meaning: 'lima',
+    topicId: 'number',
+  },
+  {
+    id: 'number-w06',
+    word: 'six',
+    meaning: 'enam',
+    topicId: 'number',
+  },
+  {
+    id: 'number-w07',
+    word: 'seven',
+    meaning: 'tujuh',
+    topicId: 'number',
+  },
+  {
+    id: 'number-w08',
+    word: 'eight',
+    meaning: 'delapan',
+    topicId: 'number',
+  },
+  {
+    id: 'number-w09',
+    word: 'nine',
+    meaning: 'sembilan',
+    topicId: 'number',
+  },
+  {
+    id: 'number-w10',
+    word: 'ten',
+    meaning: 'sepuluh',
+    topicId: 'number',
+  },
+  {
+    id: 'number-w11',
+    word: 'eleven',
+    meaning: 'sebelas',
+    topicId: 'number',
+  },
+  {
+    id: 'number-w12',
+    word: 'twelve',
+    meaning: 'dua belas',
+    topicId: 'number',
+  },
+  {
+    id: 'number-w13',
+    word: 'thirteen',
+    meaning: 'tiga belas',
+    topicId: 'number',
+  },
+  {
+    id: 'number-w14',
+    word: 'fourteen',
+    meaning: 'empat belas',
+    topicId: 'number',
+  },
+  {
+    id: 'number-w15',
+    word: 'fifteen',
+    meaning: 'lima belas',
+    topicId: 'number',
+  },
+  {
+    id: 'number-w16',
+    word: 'sixteen',
+    meaning: 'enam belas',
+    topicId: 'number',
+  },
+  {
+    id: 'number-w17',
+    word: 'seventeen',
+    meaning: 'tujuh belas',
+    topicId: 'number',
+  },
+  {
+    id: 'number-w18',
+    word: 'eighteen',
+    meaning: 'delapan belas',
+    topicId: 'number',
+  },
+  {
+    id: 'number-w19',
+    word: 'nineteen',
+    meaning: 'sembilan belas',
+    topicId: 'number',
+  },
+  {
+    id: 'number-w20',
+    word: 'twenty',
+    meaning: 'dua puluh',
+    topicId: 'number',
+  },
+  {
+    id: 'number-w30',
+    word: 'thirty',
+    meaning: 'tiga puluh',
+    topicId: 'number',
+  },
+  {
+    id: 'number-w31',
+    word: 'forty',
+    meaning: 'empat puluh',
+    topicId: 'number',
+  },
+  {
+    id: 'number-w32',
+    word: 'fifty',
+    meaning: 'lima puluh',
+    topicId: 'number',
+  },
+  {
+    id: 'number-w33',
+    word: 'sixty',
+    meaning: 'enam puluh',
+    topicId: 'number',
+  },
+  {
+    id: 'number-w34',
+    word: 'seventy',
+    meaning: 'tujuh puluh',
+    topicId: 'number',
+  },
+  {
+    id: 'number-w35',
+    word: 'eighty',
+    meaning: 'delapan puluh',
+    topicId: 'number',
+  },
+  {
+    id: 'number-w36',
+    word: 'ninety',
+    meaning: 'sembilan puluh',
+    topicId: 'number',
+  },
+  {
+    id: 'number-w91',
+    word: 'plus',
+    meaning: 'tambah',
+    topicId: 'number',
+  },
+  {
+    id: 'number-w92',
+    word: 'minus',
+    meaning: 'kurang',
+    topicId: 'number',
+  },
+  {
+    id: 'number-w93',
+    word: 'times',
+    meaning: 'kali',
+    topicId: 'number',
+  },
+  {
+    id: 'number-w95',
+    word: 'equals',
+    meaning: 'sama dengan',
+    topicId: 'number',
+  },
+];
+
+export default items;

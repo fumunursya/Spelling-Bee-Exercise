@@ -1,0 +1,198 @@
+import type { SpellingItem } from './types';
+
+const items: SpellingItem[] = [
+  {
+    id: 'taste-w01',
+    word: 'taste',
+    meaning: 'rasa',
+    topicId: 'taste',
+  },
+  {
+    id: 'taste-w02',
+    word: 'flavor',
+    meaning: 'cita rasa',
+    topicId: 'taste',
+  },
+  {
+    id: 'taste-w03',
+    word: 'sweet',
+    meaning: 'manis',
+    topicId: 'taste',
+  },
+  {
+    id: 'taste-w04',
+    word: 'salty',
+    meaning: 'asin',
+    topicId: 'taste',
+  },
+  {
+    id: 'taste-w05',
+    word: 'sour',
+    meaning: 'asam',
+    topicId: 'taste',
+  },
+  {
+    id: 'taste-w06',
+    word: 'bitter',
+    meaning: 'pahit',
+    topicId: 'taste',
+  },
+  {
+    id: 'taste-w07',
+    word: 'spicy',
+    meaning: 'pedas',
+    topicId: 'taste',
+  },
+  {
+    id: 'taste-w08',
+    word: 'savory',
+    meaning: 'gurih',
+    topicId: 'taste',
+  },
+  {
+    id: 'taste-w09',
+    word: 'bland',
+    meaning: 'hambar',
+    topicId: 'taste',
+  },
+  {
+    id: 'taste-w10',
+    word: 'rich',
+    meaning: 'kaya rasa',
+    topicId: 'taste',
+  },
+  {
+    id: 'taste-w11',
+    word: 'light',
+    meaning: 'ringan',
+    topicId: 'taste',
+  },
+  {
+    id: 'taste-w12',
+    word: 'strong',
+    meaning: 'kuat',
+    topicId: 'taste',
+  },
+  {
+    id: 'taste-w13',
+    word: 'mild',
+    meaning: 'tidak terlalu kuat',
+    topicId: 'taste',
+  },
+  {
+    id: 'taste-w14',
+    word: 'fresh',
+    meaning: 'segar',
+    topicId: 'taste',
+  },
+  {
+    id: 'taste-w15',
+    word: 'smoky',
+    meaning: 'berasap',
+    topicId: 'taste',
+  },
+  {
+    id: 'taste-w16',
+    word: 'creamy',
+    meaning: 'lembut dan creamy',
+    topicId: 'taste',
+  },
+  {
+    id: 'taste-w17',
+    word: 'crispy',
+    meaning: 'renyah',
+    topicId: 'taste',
+  },
+  {
+    id: 'taste-w18',
+    word: 'crunchy',
+    meaning: 'garing',
+    topicId: 'taste',
+  },
+  {
+    id: 'taste-w19',
+    word: 'soft',
+    meaning: 'lembut',
+    topicId: 'taste',
+  },
+  {
+    id: 'taste-w20',
+    word: 'juicy',
+    meaning: 'berair',
+    topicId: 'taste',
+  },
+  {
+    id: 'taste-w21',
+    word: 'dry',
+    meaning: 'kering',
+    topicId: 'taste',
+  },
+  {
+    id: 'taste-w22',
+    word: 'oily',
+    meaning: 'berminyak',
+    topicId: 'taste',
+  },
+  {
+    id: 'taste-w23',
+    word: 'burnt',
+    meaning: 'gosong',
+    topicId: 'taste',
+  },
+  {
+    id: 'taste-w24',
+    word: 'raw',
+    meaning: 'mentah',
+    topicId: 'taste',
+  },
+  {
+    id: 'taste-w25',
+    word: 'ripe',
+    meaning: 'matang',
+    topicId: 'taste',
+  },
+  {
+    id: 'taste-w26',
+    word: 'overripe',
+    meaning: 'terlalu matang',
+    topicId: 'taste',
+  },
+  {
+    id: 'taste-w27',
+    word: 'delicious',
+    meaning: 'lezat',
+    topicId: 'taste',
+  },
+  {
+    id: 'taste-w28',
+    word: 'tasty',
+    meaning: 'enak',
+    topicId: 'taste',
+  },
+  {
+    id: 'taste-w29',
+    word: 'yummy',
+    meaning: 'enak sekali',
+    topicId: 'taste',
+  },
+  {
+    id: 'taste-w30',
+    word: 'appetizing',
+    meaning: 'menggugah selera',
+    topicId: 'taste',
+  },
+  {
+    id: 'taste-w31',
+    word: 'awful',
+    meaning: 'tidak enak',
+    topicId: 'taste',
+  },
+  {
+    id: 'taste-w44',
+    word: 'aftertaste',
+    meaning: 'rasa setelah ditelan',
+    topicId: 'taste',
+  },
+];
+
+export default items;

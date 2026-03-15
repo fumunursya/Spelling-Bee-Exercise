@@ -1,0 +1,192 @@
+import type { SpellingItem } from './types';
+
+const items: SpellingItem[] = [
+  {
+    id: 'size-w01',
+    word: 'big',
+    meaning: 'besar',
+    topicId: 'size',
+  },
+  {
+    id: 'size-w02',
+    word: 'small',
+    meaning: 'kecil',
+    topicId: 'size',
+  },
+  {
+    id: 'size-w03',
+    word: 'large',
+    meaning: 'besar',
+    topicId: 'size',
+  },
+  {
+    id: 'size-w04',
+    word: 'tiny',
+    meaning: 'sangat kecil',
+    topicId: 'size',
+  },
+  {
+    id: 'size-w05',
+    word: 'huge',
+    meaning: 'sangat besar',
+    topicId: 'size',
+  },
+  {
+    id: 'size-w06',
+    word: 'little',
+    meaning: 'kecil',
+    topicId: 'size',
+  },
+  {
+    id: 'size-w07',
+    word: 'tall',
+    meaning: 'tinggi',
+    topicId: 'size',
+  },
+  {
+    id: 'size-w08',
+    word: 'short',
+    meaning: 'pendek',
+    topicId: 'size',
+  },
+  {
+    id: 'size-w09',
+    word: 'long',
+    meaning: 'panjang',
+    topicId: 'size',
+  },
+  {
+    id: 'size-w10',
+    word: 'wide',
+    meaning: 'lebar',
+    topicId: 'size',
+  },
+  {
+    id: 'size-w11',
+    word: 'narrow',
+    meaning: 'sempit',
+    topicId: 'size',
+  },
+  {
+    id: 'size-w12',
+    word: 'thick',
+    meaning: 'tebal',
+    topicId: 'size',
+  },
+  {
+    id: 'size-w13',
+    word: 'thin',
+    meaning: 'tipis',
+    topicId: 'size',
+  },
+  {
+    id: 'size-w14',
+    word: 'heavy',
+    meaning: 'berat',
+    topicId: 'size',
+  },
+  {
+    id: 'size-w15',
+    word: 'light',
+    meaning: 'ringan',
+    topicId: 'size',
+  },
+  {
+    id: 'size-w16',
+    word: 'deep',
+    meaning: 'dalam',
+    topicId: 'size',
+  },
+  {
+    id: 'size-w17',
+    word: 'shallow',
+    meaning: 'dangkal',
+    topicId: 'size',
+  },
+  {
+    id: 'size-w18',
+    word: 'high',
+    meaning: 'tinggi',
+    topicId: 'size',
+  },
+  {
+    id: 'size-w19',
+    word: 'low',
+    meaning: 'rendah',
+    topicId: 'size',
+  },
+  {
+    id: 'size-w20',
+    word: 'medium',
+    meaning: 'sedang',
+    topicId: 'size',
+  },
+  {
+    id: 'size-w21',
+    word: 'giant',
+    meaning: 'raksasa',
+    topicId: 'size',
+  },
+  {
+    id: 'size-w22',
+    word: 'mini',
+    meaning: 'mini',
+    topicId: 'size',
+  },
+  {
+    id: 'size-w27',
+    word: 'bigger',
+    meaning: 'lebih besar',
+    topicId: 'size',
+  },
+  {
+    id: 'size-w28',
+    word: 'smaller',
+    meaning: 'lebih kecil',
+    topicId: 'size',
+  },
+  {
+    id: 'size-w29',
+    word: 'longer',
+    meaning: 'lebih panjang',
+    topicId: 'size',
+  },
+  {
+    id: 'size-w30',
+    word: 'shorter',
+    meaning: 'lebih pendek',
+    topicId: 'size',
+  },
+  {
+    id: 'size-w31',
+    word: 'wider',
+    meaning: 'lebih lebar',
+    topicId: 'size',
+  },
+  {
+    id: 'size-w32',
+    word: 'narrower',
+    meaning: 'lebih sempit',
+    topicId: 'size',
+  },
+  {
+    id: 'size-w33',
+    word: 'taller',
+    meaning: 'lebih tinggi',
+    topicId: 'size',
+  },
+  {
+    id: 'size-w34',
+    word: 'lower',
+    meaning: 'lebih rendah',
+    topicId: 'size',
+  },
+  {
+    id: 'size-w35',
+    word: 'average',
+    meaning: 'rata-rata',
+    topicId: 'size',
+  },
+];
+
+export default items;

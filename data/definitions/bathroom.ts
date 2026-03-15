@@ -1,0 +1,291 @@
+import type { WordDefinition } from './types';
+
+const definitions: WordDefinition[] = [
+  {
+    id: 'bathroom-w01',
+    word: 'bathroom',
+    definitionEn: 'A room with a bathtub or shower, and usually a sink and toilet.',
+    definitionId:
+      'Sebuah ruangan dengan bathtub atau shower, dan biasanya ada wastafel serta toilet.',
+    topicId: 'bathroom',
+  },
+  {
+    id: 'bathroom-w02',
+    word: 'toilet',
+    definitionEn: 'A fixture for urination and defecation, usually with a water-flushed bowl.',
+    definitionId:
+      'Perlengkapan untuk buang air kecil dan besar, biasanya berupa mangkuk dengan siraman air.',
+    topicId: 'bathroom',
+  },
+  {
+    id: 'bathroom-w03',
+    word: 'restroom',
+    definitionEn: 'A public room with toilets and lavatories.',
+    definitionId: 'Ruangan umum yang berisi toilet dan wastafel.',
+    topicId: 'bathroom',
+  },
+  {
+    id: 'bathroom-w04',
+    word: 'washroom',
+    definitionEn: 'A room with washing and toilet facilities.',
+    definitionId: 'Ruangan dengan fasilitas cuci dan toilet.',
+    topicId: 'bathroom',
+  },
+  {
+    id: 'bathroom-w05',
+    word: 'sink',
+    definitionEn: 'A fixed basin with a drain and water supply for washing.',
+    definitionId: 'Wastafel permanen dengan saluran pembuangan dan suplai air untuk mencuci.',
+    topicId: 'bathroom',
+  },
+  {
+    id: 'bathroom-w06',
+    word: 'faucet',
+    definitionEn: 'A fixture for drawing or regulating the flow of liquid from a pipe.',
+    definitionId: 'Perlengkapan untuk menarik atau mengatur aliran cairan dari pipa.',
+    topicId: 'bathroom',
+  },
+  {
+    id: 'bathroom-w07',
+    word: 'tap',
+    definitionEn: 'A device with a spout and valve for controlling the flow of liquid.',
+    definitionId: 'Perangkat dengan cerat dan katup untuk mengontrol aliran cairan.',
+    topicId: 'bathroom',
+  },
+  {
+    id: 'bathroom-w08',
+    word: 'shower',
+    definitionEn: 'A bath in which water is sprayed on the body.',
+    definitionId: 'Mandi dengan air yang disemprotkan ke tubuh.',
+    topicId: 'bathroom',
+  },
+  {
+    id: 'bathroom-w09',
+    word: 'bathtub',
+    definitionEn: 'A fixed tub for bathing.',
+    definitionId: 'Bak permanen untuk mandi berendam.',
+    topicId: 'bathroom',
+  },
+  {
+    id: 'bathroom-w10',
+    word: 'bucket',
+    definitionEn: 'A typically cylindrical container for carrying or holding liquids or solids.',
+    definitionId: 'Wadah silinder untuk membawa atau menampung cairan atau benda.',
+    topicId: 'bathroom',
+  },
+  {
+    id: 'bathroom-w11',
+    word: 'dipper',
+    definitionEn: 'A long-handled cup used for dipping or ladling.',
+    definitionId: 'Gayung bertangkai panjang untuk mengambil atau menimba air.',
+    topicId: 'bathroom',
+  },
+  {
+    id: 'bathroom-w12',
+    word: 'drain',
+    definitionEn: 'A pipe or channel by which liquid is carried away.',
+    definitionId: 'Pipa atau saluran tempat cairan dialirkan keluar.',
+    topicId: 'bathroom',
+  },
+  {
+    id: 'bathroom-w13',
+    word: 'mirror',
+    definitionEn: 'A smooth surface (often glass) that forms images by reflection.',
+    definitionId: 'Permukaan halus (sering kaca) yang memantulkan bayangan.',
+    topicId: 'bathroom',
+  },
+  {
+    id: 'bathroom-w14',
+    word: 'toothbrush',
+    definitionEn: 'A brush for cleaning the teeth.',
+    definitionId: 'Sikat untuk membersihkan gigi.',
+    topicId: 'bathroom',
+  },
+  {
+    id: 'bathroom-w15',
+    word: 'toothpaste',
+    definitionEn: 'A paste used for cleaning the teeth.',
+    definitionId: 'Pasta untuk membersihkan gigi.',
+    topicId: 'bathroom',
+  },
+  {
+    id: 'bathroom-w17',
+    word: 'mouthwash',
+    definitionEn: 'A liquid (often antiseptic) for cleaning the mouth and freshening breath.',
+    definitionId: 'Cairan (sering antiseptik) untuk membersihkan mulut dan menyegarkan napas.',
+    topicId: 'bathroom',
+  },
+  {
+    id: 'bathroom-w18',
+    word: 'soap',
+    definitionEn: 'A cleansing agent made by the reaction of fats with an alkali.',
+    definitionId: 'Bahan pembersih yang dibuat dari reaksi lemak dengan alkali.',
+    topicId: 'bathroom',
+  },
+  {
+    id: 'bathroom-w19',
+    word: 'shampoo',
+    definitionEn: 'A preparation for washing the hair.',
+    definitionId: 'Sediaan untuk mencuci rambut.',
+    topicId: 'bathroom',
+  },
+  {
+    id: 'bathroom-w20',
+    word: 'conditioner',
+    definitionEn: 'A preparation used after shampooing to improve the condition of hair.',
+    definitionId: 'Sediaan yang dipakai setelah sampo untuk memperbaiki kondisi rambut.',
+    topicId: 'bathroom',
+  },
+  {
+    id: 'bathroom-w23',
+    word: 'lotion',
+    definitionEn: 'A liquid preparation for cosmetic or medicinal use on the skin.',
+    definitionId: 'Sediaan cair untuk penggunaan kosmetik atau medis pada kulit.',
+    topicId: 'bathroom',
+  },
+  {
+    id: 'bathroom-w24',
+    word: 'deodorant',
+    definitionEn: 'A preparation that removes or masks unpleasant odors, especially underarms.',
+    definitionId: 'Sediaan yang menghilangkan atau menutupi bau tidak sedap, terutama di ketiak.',
+    topicId: 'bathroom',
+  },
+  {
+    id: 'bathroom-w25',
+    word: 'perfume',
+    definitionEn:
+      'A substance that emits a pleasant odor, especially a liquid preparation used for scenting.',
+    definitionId: 'Zat beraroma harum, khususnya sediaan cair untuk memberi wangi.',
+    topicId: 'bathroom',
+  },
+  {
+    id: 'bathroom-w26',
+    word: 'towel',
+    definitionEn: 'An absorbent cloth or paper for wiping or drying.',
+    definitionId: 'Kain atau kertas penyerap untuk mengelap atau mengeringkan.',
+    topicId: 'bathroom',
+  },
+  {
+    id: 'bathroom-w30',
+    word: 'tissue',
+    definitionEn:
+      'A piece of soft absorbent tissue paper used especially as a handkerchief or for removing cosmetics.',
+    definitionId:
+      'Lembar tisu lembut penyerap, biasanya untuk sapu tangan atau menghapus kosmetik.',
+    topicId: 'bathroom',
+  },
+  {
+    id: 'bathroom-w32',
+    word: 'shelf',
+    definitionEn: 'A thin flat piece fastened horizontally to hold objects.',
+    definitionId: 'Papan tipis datar yang dipasang horizontal untuk menaruh benda.',
+    topicId: 'bathroom',
+  },
+  {
+    id: 'bathroom-w33',
+    word: 'cabinet',
+    definitionEn: 'A case or cupboard usually having doors and shelves.',
+    definitionId: 'Lemari atau kabinet yang biasanya berpintu dan bersusun rak.',
+    topicId: 'bathroom',
+  },
+  {
+    id: 'bathroom-w34',
+    word: 'cleaner',
+    definitionEn: 'A preparation for cleaning.',
+    definitionId: 'Sediaan untuk membersihkan.',
+    topicId: 'bathroom',
+  },
+  {
+    id: 'bathroom-w35',
+    word: 'disinfectant',
+    definitionEn:
+      'An agent used to disinfect, especially a chemical agent used on hard surfaces or in water to destroy pathogens.',
+    definitionId:
+      'Zat untuk mendisinfeksi, terutama bahan kimia pada permukaan keras atau air untuk membunuh patogen.',
+    topicId: 'bathroom',
+  },
+  {
+    id: 'bathroom-w36',
+    word: 'brush',
+    definitionEn:
+      'A device of bristles set into a handle used for sweeping, smoothing, scrubbing, or painting.',
+    definitionId:
+      'Alat dengan bulu pada gagang untuk menyapu, menggosok, menghaluskan, atau mengecat.',
+    topicId: 'bathroom',
+  },
+  {
+    id: 'bathroom-w37',
+    word: 'sponge',
+    definitionEn: 'A porous piece used for cleaning and absorbing water.',
+    definitionId: 'Bahan berpori untuk membersihkan dan menyerap air.',
+    topicId: 'bathroom',
+  },
+  {
+    id: 'bathroom-w38',
+    word: 'mop',
+    definitionEn:
+      'An implement of absorbent material fastened to a handle and used especially for cleaning floors.',
+    definitionId:
+      'Alat dari bahan penyerap pada gagang, digunakan terutama untuk membersihkan lantai.',
+    topicId: 'bathroom',
+  },
+  {
+    id: 'bathroom-w39',
+    word: 'wipe',
+    definitionEn: 'To clean or dry by rubbing with something soft.',
+    definitionId:
+      'Membersihkan atau mengeringkan dengan menggosok menggunakan sesuatu yang lembut.',
+    topicId: 'bathroom',
+  },
+  {
+    id: 'bathroom-w40',
+    word: 'flush',
+    definitionEn: 'To cleanse or wash out with a rush of liquid.',
+    definitionId: 'Menyiram atau membersihkan dengan aliran cairan yang deras.',
+    topicId: 'bathroom',
+  },
+  {
+    id: 'bathroom-w41',
+    word: 'wash',
+    definitionEn: 'To clean by rubbing or dipping in water.',
+    definitionId: 'Membersihkan dengan menggosok atau merendam dalam air.',
+    topicId: 'bathroom',
+  },
+  {
+    id: 'bathroom-w42',
+    word: 'rinse',
+    definitionEn: 'To cleanse by flushing with liquid (such as water).',
+    definitionId: 'Membersihkan dengan membilas menggunakan cairan (seperti air).',
+    topicId: 'bathroom',
+  },
+  {
+    id: 'bathroom-w43',
+    word: 'dry',
+    definitionEn: 'To make or become dry.',
+    definitionId: 'Membuat atau menjadi kering.',
+    topicId: 'bathroom',
+  },
+  {
+    id: 'bathroom-w45',
+    word: 'shave',
+    definitionEn: 'To cut off hair or beard close to the skin.',
+    definitionId: 'Memotong rambut atau janggut hingga dekat ke kulit.',
+    topicId: 'bathroom',
+  },
+  {
+    id: 'bathroom-w46',
+    word: 'comb',
+    definitionEn: 'A toothed instrument used especially for arranging or cleaning hair.',
+    definitionId: 'Alat bergigi untuk menata atau membersihkan rambut.',
+    topicId: 'bathroom',
+  },
+  {
+    id: 'bathroom-w50',
+    word: 'slippery',
+    definitionEn: 'Causing or tending to cause something to slide or fall.',
+    definitionId: 'Menyebabkan atau cenderung membuat sesuatu meluncur atau jatuh.',
+    topicId: 'bathroom',
+  },
+];
+
+export default definitions;

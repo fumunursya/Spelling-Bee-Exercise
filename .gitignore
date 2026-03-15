@@ -1,0 +1,29 @@
+node_modules
+
+# Next.js build outputs
+.next
+out
+
+# Coverage / caches
+coverage
+.turbo
+.eslintcache
+*.tsbuildinfo
+
+# Environment files
+.env*
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Generated artifacts
+scripts/generated/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+
