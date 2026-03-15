@@ -22,6 +22,7 @@ export default function QuizPage() {
   const [timeLeft, setTimeLeft] = useState(0);
   const [answers, setAnswers] = useState<AnswerRecord[]>([]);
   const [letters, setLetters] = useState<string[]>([]);
+  const [inputValue, setInputValue] = useState('');
   const lettersRef = useRef<string[]>([]);
   const [cursorIndex, setCursorIndex] = useState(0);
   const [feedback, setFeedback] = useState<FeedbackState | null>(null);
@@ -95,6 +96,7 @@ export default function QuizPage() {
 
     const freshLetters = Array.from({ length: currentQuestion.word.length }, () => '');
     setLetters(freshLetters);
+    setInputValue('');
     lettersRef.current = freshLetters;
     setCursorIndex(0);
     setFeedback(null);
@@ -204,6 +206,16 @@ export default function QuizPage() {
     }, FEEDBACK_DELAY_MS);
   };
 
+  const applyInputValue = (rawValue: string) => {
+    if (!currentQuestion) return;
+    const cleaned = rawValue.replace(/[^a-zA-Z]/g, '').slice(0, currentQuestion.word.length).toLowerCase();
+    setInputValue(cleaned);
+    const nextLetters = Array.from({ length: currentQuestion.word.length }, (_, idx) => cleaned[idx] ?? '');
+    setLetters(nextLetters);
+    lettersRef.current = nextLetters;
+    setCursorIndex(cleaned.length);
+  };
+
   const handleLetterInput = (value: string) => {
     if (!currentQuestion) return;
     if (cursorIndex >= currentQuestion.word.length) return;
@@ -213,6 +225,7 @@ export default function QuizPage() {
       const next = [...prev];
       next[nextIndex] = value.toLowerCase();
       lettersRef.current = next;
+      setInputValue(next.join(''));
       return next;
     });
 
@@ -232,6 +245,7 @@ export default function QuizPage() {
 
       next[nextCursor] = '';
       lettersRef.current = next;
+      setInputValue(next.join(''));
       setCursorIndex(Math.max(nextCursor, 0));
       return next;
     });
@@ -298,9 +312,6 @@ export default function QuizPage() {
       <div className="cyber-grid" />
       <section className="ps-panel">
         <div className="ps-quiz-top">
-          <div className="ps-brand ps-brand-compact">
-            <img src="/learning_english_geuwat_rb_3d.png" alt="GEUWAT" />
-          </div>
           <strong>{config.username}</strong>
           <span>Soal {progressText}</span>
           {config.timerEnabled ? <span>Time: {timeLeft}s</span> : <span>Timer OFF</span>}
@@ -349,11 +360,13 @@ export default function QuizPage() {
         <input
           ref={inputRef}
           className="ps-hidden-input"
-          value=""
-          onChange={() => undefined}
+          value={inputValue}
+          onChange={(event) => applyInputValue(event.target.value)}
+          onInput={(event) => applyInputValue((event.target as HTMLInputElement).value)}
           onKeyDown={handleKeyDown}
           autoComplete="off"
           autoCorrect="off"
+          autoCapitalize="none"
           spellCheck={false}
           inputMode="text"
           aria-label="Spelling input"
