@@ -298,6 +298,9 @@ export default function QuizPage() {
       <div className="cyber-grid" />
       <section className="ps-panel">
         <div className="ps-quiz-top">
+          <div className="ps-brand ps-brand-compact">
+            <img src="/learning_english_geuwat_rb_3d.png" alt="GEUWAT" />
+          </div>
           <strong>{config.username}</strong>
           <span>Soal {progressText}</span>
           {config.timerEnabled ? <span>Time: {timeLeft}s</span> : <span>Timer OFF</span>}

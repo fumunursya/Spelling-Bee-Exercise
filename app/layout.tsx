@@ -2,7 +2,7 @@ import './globals.css';
 import type { Metadata, Viewport } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Spelling Bee Exercise',
+  title: 'GEUWAT - Spelling Bee Exercise',
   description: 'Latihan ejaan bahasa Inggris dengan audio spelling per huruf.',
   icons: {
     icon: '/favicon.ico',

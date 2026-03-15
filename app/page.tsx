@@ -127,6 +127,9 @@ export default function HomePage() {
       <div className="cyber-grid" />
       <section className="ps-panel ps-setup-panel">
         <div className="ps-setup-head">
+          <div className="ps-brand">
+            <img src="/learning_english_geuwat_rb_3d.png" alt="GEUWAT" />
+          </div>
           <h1>Spelling Bee Exercise</h1>
           <p>Latihan mengeja kata bahasa Inggris lewat audio spelling per huruf.</p>
           <div className="ps-setup-note">
